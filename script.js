@@ -1,3 +1,9 @@
 document.querySelector("button").onclick = function () {
-    alert("Selamat datang di Undangan Pernikahan");
+
+    document.querySelector(".hero").style.display = "none";
+
+    document.querySelector(".acara").scrollIntoView({
+        behavior: "smooth"
+    });
+
 };
